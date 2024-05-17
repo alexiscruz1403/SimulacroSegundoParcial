@@ -1,2 +1,18 @@
-# SimulacroSegundoParcial
-Resolucion del Simulacro del Segundo Parcial de IPOO 2024
+# Simulacro Primer Parcial IPOO
+Resolucion del Simulacro del Segundo Parcial
+
+# Materia 2024
+
+Introduccion a la Programacion Orientada a Objetos
+
+Tecnicatura Universitaria en Desarrollo Web
+
+Facultad de Informatica
+
+Universidad Nacional del Comahue
+
+# Alumno
+
+Cruz Jesus Ramon Alexis
+
+FAI-4682
