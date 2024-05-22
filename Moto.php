@@ -93,7 +93,7 @@ class Moto{
      * @return double
      */
     public function darPrecioVenta(){
-        $anio=2024-$this->getAnioFabricacion();
+        $anio=intval(date('Y'))-$this->getAnioFabricacion();
         $costo=$this->getCosto();
         $porcentaje=$this->getPorcentajeIncrementoAnual();
         $venta=$costo+$costo*($anio*($porcentaje/100));
