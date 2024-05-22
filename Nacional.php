@@ -16,7 +16,7 @@ class Nacional extends Moto{
     }
     public function __toString(){
         $cadena=parent::__toString();
-        $cadena.="Porcentaje descuento: ".$this->getPorcentajeDescuento()."\n";
+        $cadena.="Porcentaje descuento: ".$this->getPorcentajeDescuento()."%\n";
         return $cadena;
     }
 

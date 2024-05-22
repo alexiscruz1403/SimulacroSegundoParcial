@@ -74,7 +74,7 @@ class Moto{
 
     public function __toString(){
         $cadena="Codigo: ".$this->getCodigo()."\n".
-                "Costo: ".$this->getCosto()."\n".
+                "Costo: $".$this->getCosto()."\n".
                 "Año de fabricacion: ".$this->getAnioFabricacion()."\n".
                 "Descripcion: ".$this->getDescripcion()."\n".
                 "Porcentaje de incremento anual: ".$this->getPorcentajeIncrementoAnual()."%\n";

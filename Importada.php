@@ -22,7 +22,7 @@ class Importada extends Moto{
     public function __toString(){
         $cadena=parent::__toString();
         $cadena.="Pais de importacion: ".$this->getPaisImportacion()."\n".
-        $cadena.="Importe de importacion: ".$this->getImporteImportacion()."\n";
+                "Importe de importacion: $".$this->getImporteImportacion()."\n";
         return $cadena;
     }
 

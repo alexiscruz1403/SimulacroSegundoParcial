@@ -115,7 +115,7 @@ class Empresa{
                     $moto->setEstadoActiva(false);
                 }
             }
-            if(count($unaVenta->getArregloMotos())!=0){
+            if(count($unaVenta->getColeccionMotos())!=0){
                 echo "INGRESE LOS DATOS DE LA VENTA\n";
                 echo "Numero de venta: ";
                 $numero=trim(fgets(STDIN));

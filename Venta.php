@@ -64,7 +64,7 @@ class Venta{
         $cadena="Codigo: ".$this->getNumero()."\n".
                 "Fecha: ".$this->getFecha()."\n".
                 "Cliente: ".$this->getCliente()->getNombre()." ".$this->getCliente()->getApellido()."\n".
-                "Cantidad de motos: ".count($this->getColeccionMotos());
+                "Cantidad de motos: ".count($this->getColeccionMotos())."\n";
         return $cadena;
     }
 
@@ -99,7 +99,7 @@ class Venta{
         $coleccionMotos=$this->getColeccionMotos();
         foreach($coleccionMotos as $moto){
             if($moto->esNacional()){
-                $total=$total+$moto->darPreciVenta();
+                $total=$total+$moto->darPrecioVenta();
             }
         }
         return $total;
